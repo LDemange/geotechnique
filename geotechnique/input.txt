@@ -1,0 +1,22 @@
+FICHIER DES INPUTS POUR LA SCHEMATISATION DES FONDATIONS:
+
+INPUT : 									NOM DE VARIABLE :	DESCRIPTION :
+                                             
+[0.4,0.6,0.1]									# h_couche, 		Epaisseur visible de chaque couche
+['g','y','brown'] 								# color_couche, 	Couleur de chaque couche
+['//','o..','-']								# symbol_couche, 	Texture de chaque couche
+['Terre \n végétale', 'Remblai \n sablo-graveleux', 'Argile']   		# name_couche, 		Nom de chaque couche
+['Béton maconné', 'Béton armé'] 						# name_fondation, 	Nom de chaque dé de fondation
+'Mur' 										# name_mur, 		Nom du mur
+'Massif isolé' 									# Titre, 		Titre du document
+0.50 										# h_mur, 		Hauteur du mur sous le sol et au-dessus des fondations
+0.60 										# d_mur, 		Élévation du mur au-dessus du sol
+[0.20,0.40] 									# deb_fond, 		Débord fondation
+[0.30,0.40] 									#h_fond,		Hauteur fondation
+1.1 										#fond_fouille, 		Profondeur du fond de fouille en m.
+120 										#cote, 			Cote de la fouille
+['grey','grey'] 								#color_fond, 		Couleur fondation
+['-','-'] 									#symbol_fond,		Texture fondation
+{'weight' : 'bold', 'size' : 12} 						#font, 			Police de texte
+{'weight' : 'bold', 'size' : 20} 						#font_title,		Police de titre
+{'size' : 10} 									#font_measure,		Police de mesure
